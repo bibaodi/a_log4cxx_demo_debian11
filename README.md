@@ -1,4 +1,17 @@
 # log4cxx-demo  
 log4cxx-demo test  
-https://blog.csdn.net/weixin_39752599/article/details/116568873?spm=1001.2014.3001.5501
-https://blog.csdn.net/weixin_39752599/article/details/116618234?spm=1001.2014.3001.5501
+# before run cmake
+apt install liblog4cxx-dev
+
+#build
+	mkdir build
+	cd build
+	cmake ..
+	make
+	./TestLog4cxx
+
+#read log file
+	less sendpro.log 
+
+#ref:
+	based on git@github.com:lishuwei0424/log4cxx-demo.git

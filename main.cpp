@@ -13,10 +13,9 @@ int main(){
     LoggerPtr logger_sendpro(Logger::getLogger("sendpro"));
     LoggerPtr logger_msghander(Logger::getLogger("msghander"));
 	
-    int  i=0;
-    while(1)
+    int  i=10;
+    while(i--)
     {   
-	i++;
 	LOG4CXX_INFO(logger_sendpro," sendpro");
 	LOG4CXX_DEBUG(logger_sendpro,"This is a sendpro");
 	LOG4CXX_INFO(logger_msghander, "msghander");

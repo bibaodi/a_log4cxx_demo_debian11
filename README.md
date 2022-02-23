@@ -5,11 +5,11 @@ apt install liblog4cxx-dev
 
 # build
 `
-mkdir build
-cd build
-cmake ..
-make
-./TestLog4cxx
+	mkdir build
+	cd build
+	cmake ..
+	make
+	./TestLog4cxx
 `
 
 # read log file

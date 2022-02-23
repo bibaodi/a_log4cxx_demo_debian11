@@ -4,7 +4,7 @@ log4cxx-demo test
 apt install liblog4cxx-dev
 
 # build
-	`
+`
 mkdir build
 cd build
 cmake ..

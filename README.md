@@ -4,13 +4,13 @@ log4cxx-demo test
 apt install liblog4cxx-dev
 
 # build
-`
+```sh
 	mkdir build
 	cd build
 	cmake ..
 	make
 	./TestLog4cxx
-`
+```
 
 # read log file
 	less sendpro.log 
